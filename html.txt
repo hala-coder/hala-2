@@ -1,0 +1,42 @@
+  <section class="meddia">
+        <div class="container">
+            <h2>Media Center</h2>
+            <div class="meddia-title">
+                <span>NEWS</span>
+                <span>EVENTS</span>
+            </div><!--./meddia-title-->
+        </div><!--./container-->
+
+
+        <div class="meddia-slider">
+            <div class="arrow arrow--prev">
+               <i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>
+            </div>
+            <section class="slider" data-component='slider'>
+                <div class="slider__item" data-slider="X1" data-position="0">
+                    <img src="img/4-pic.jpg" alt="">
+                </div>
+                <div class="slider__item" data-slider="X2" data-position="1">
+                    <img src="img/5-pic.jpg" alt="">
+
+                </div>
+                <div class="slider__item" data-slider="X3" data-position="2">
+                    <img src="img/2-pic.jpg" alt="">
+                </div>
+                <div class="slider__item" data-slider="X4" data-position="3">
+                    <img src="img/3-pic.jpg" alt="">
+
+                </div>
+                <div class="slider__item" data-slider="X5" data-position="4">
+                    <img src="img/1-pic.jpg" alt="">
+                </div>
+            </section>
+            <div class="arrow arrow--next">
+                <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+            </div>
+        </div><!--./meddia-slider-->
+    
+     
+
+        </section><!--./media-->
+       <!-- end media -->

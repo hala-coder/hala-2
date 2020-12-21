@@ -1,0 +1,386 @@
+*,*:after,*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***first section*****/
+section {
+    height:700px;
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+section .container .head{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+section .container .head img{
+    float: left;
+    padding-top: 10px;
+}
+section .container .head nav{
+    float: right;
+    padding-top: 50px;
+    
+}
+.clearfix{
+    clear: both;
+}
+.footer{
+    padding-bottom: 5%;
+}
+footer .left{
+    float: left;
+
+}
+footer .right span{
+    color: #aaa;
+}
+footer .right{
+    float: right;
+}
+footer .left span{
+    padding-right: 10px;
+}
+
+
+section .container .head ul li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 30px;
+    }
+    
+section .container .head ul li a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+section .container .head ul li a:hover{
+    color: teal;
+}
+section .container .header-content h2{
+    text-align: center;
+    padding-top: 150px;
+    color:white ;
+    font-size: 60px;
+    font-weight: bold;
+}
+section .container .header-content p{
+    text-align: center;
+    padding-top: 4px;
+    color:white ;
+    font-size: x-large;
+
+}
+.clearfix{
+    clear: both;
+}
+section .container .header-content .btn1{
+    margin-block-start: 38px;
+    margin-left: 377px;
+    padding: 25px;
+    border: 0;
+    outline: 0;
+    background-color: turquoise;
+    padding-left: 32px;
+    padding-right: 40px;
+    font-size: large;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+section .container .header-content .btn2{
+    padding: 25px;
+    margin-left: 27px;
+    border: 0;
+    outline: 0;
+    font-size: large;
+    background-color: white;
+    color: turquoise;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+}
+p{
+    font-family: 'raleway', sans-serif;
+}
+section .container .header-content .btn2:hover{
+    color: teal;
+    transition: all 0.5 ease-in-out;
+}
+section .container .header-content .btn1:hover{
+    color: teal;
+    transition: all 0.5 ease-in-out;
+}
+ section .container .footer {
+    width: 40px;
+    height: 18x;
+    bottom: 10px;
+    height: 62px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+    margin-block-start: 26px;
+    margin-right: 519px;}
+
+    section .container .footer .scroll{
+        width: 5px;
+        height: 10px;
+        color: white;
+        background-color: white;
+        margin: auto;
+        position: relative;
+        top: 4px;
+    animation: scroll  3s ease-in-out infinite;
+ }
+ @keyframes scroll{
+     0%{
+         opacity: 0;
+         top:5px;
+     }
+     10%{
+         opacity: 1;
+         top:10px;
+     }
+     25% {
+         opacity: 0;
+         top: 25px;
+     }
+     45% {
+         opacity: 0.8;
+         top: 45px;}}
+.befirst {
+    height:800px;
+    background-image: url('be-the-first-bg.jpg');
+    background-size: cover;
+    padding-top: 15%;
+    margin-bottom: 24%;
+    padding-inline-start: 250px;
+    background-attachment: fixed;
+}
+.befirst h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    margin-left: -225px;
+    margin-top: -175px;
+}
+.befirst p{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding: 12px;
+    margin-left: -225px;
+
+}
+.befirst .firstimage img{
+    margin-left: 90px;
+    width: 700px;
+    text-align: center;
+}
+/****feature***/
+.feature .container {
+    padding-bottom: 20%;
+}
+
+.feature .container .feat{
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+}
+.feature .container .feat hr{
+    height: 5px;
+    background-color: #6d3f96;
+    border: 0;
+    margin-left: 0;
+}
+.feature .container .feat:nth-of-type(2) hr{
+    background-color: #fdc05d;
+    margin-left: 5%;
+}
+.feature .container .feat:nth-of-type(3) hr{
+    background-color: #70cbce ;
+    margin-left: 10%;
+}
+.feature .container .feat h2{
+    margin-top: 5%;
+    font-size: 20px;
+    padding-left: 42px;
+    
+}
+.feature .container .feat p{
+    color: #929496;
+    line-height: 1.7;
+    padding-left: 42px;
+}
+/**************pricing************/
+.pricing {
+    height: 800px;
+    background-color: #70cbce;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.pricing h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.pricing p{
+    font-size: 25px;
+    color: white;
+    padding-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.pricing  .pricingflex .itemflex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.pricing  .pricingflex .itemflex .item{
+    width: 20%;
+}
+    .pricing  .pricingflex .itemflex .item ul{
+        list-style: none;
+        background-color: white;
+        border-radius: 15px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        
+    }  
+    .pricing  .pricingflex .itemflex .item ul .price{
+        background-color:#231f20;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        color: white;
+        padding: 15%;
+
+
+    }
+    .pricing  .pricingflex .itemflex .item ul .doller{
+        background-color: #231f20;
+        transition: all 0.5s ease-in-out;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 15px;
+    }
+    .pricing  .pricingflex .itemflex .item ul .doller small{
+        font-size: normal;
+        color: rgb(90, 90, 90);
+    }
+    .pricing  .pricingflex .itemflex .item ul .list{
+        padding: 20px;
+        border-bottom: 1px dotted #b5c0c0;
+        font-weight: bolder;
+    }
+    .pricing  .pricingflex .itemflex .item ul .contentlist{
+        padding: 20px;
+        color: #929496;
+    font-weight: normal;}
+    .pricing  .pricingflex .itemflex .item ul .btn{
+        padding: 10px;
+        color:#2c999c;
+        cursor: pointer;
+    }
+    
+    .pricing  .pricingflex .itemflex .item:nth-of-type(1) ,
+    .pricing  .pricingflex .itemflex .item:nth-of-type(3){
+        margin-top: 2%;
+    } 
+    .pricing  .pricingflex .itemflex ul:hover li.doller {
+        background-color:#363434;
+    }
+    .pricing  .pricingflex .itemflex .item ul .btn:hover{
+       background-color:#f5f5f5; 
+       border-radius: 15px;}
+    .pricing  .pricingflex .itemflex ul:hover {
+     margin-top: -10px;}
+     /**********INVITE******/
+     .invite{
+         height: auto;
+         padding-top: 10%;
+         padding-bottom:10% ;
+         background-color: #f5f5f5;
+         text-align: center;
+     }
+     .invite i{
+         color: #70cbce;
+         border: 2px solid #70cbce;
+         border-radius:40px;
+         padding:20px;}
+         .invite h2{
+             padding-top: 5px;
+             font-size: 40px;
+             margin-bottom: 2%;}
+    .invite p{
+        margin-bottom: 2%;
+    
+    }
+    .invite input{
+        display: block;
+        border: 0;
+        outline: 0;
+        width: 350px;
+        height: 50px;
+        padding: 10px;
+        margin: auto;
+        margin-bottom:4% ;
+        border-radius: 10px;
+        color: white;
+    }
+    .invite input::-webkit-input-placeholder{
+        color: #aaa;
+    }
+    .invite button{
+        color: white;
+        background-color: #70cbce;
+        border: 0;
+        outline: 0;
+        padding: 10px;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+
+
+
+    }
+    .invite button:hover{
+        background-color: #929496;
+    }
+    .info{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-right: -45px;
+    }
+    .info .desc{
+        display:block ;
+        text-align: center;
+    }
+    .info .infoimg{
+        width: 40%;
+        margin: auto;
+        display: flex;
+    }
+    .info .information{
+        width: 60%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 20px;
+    
+    }
+    .info .information span{
+        font-weight: bold;
+        padding-left: 20px;
+        width: 70%;
+    }
